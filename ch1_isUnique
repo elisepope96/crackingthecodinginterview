@@ -1,8 +1,7 @@
 public class HelloWorld{
 
      public static void main(String []args){
-        System.out.println("Hello World");
-        System.out.println(isUnique("abcdefghij"));
+        System.out.println(isUnique("abcdefghij")); //true
      }
      public static boolean isUnique (String str){
        int[] frequency = new int[128];
